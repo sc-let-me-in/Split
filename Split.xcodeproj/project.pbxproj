@@ -8,22 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		01739A632262471B00E94636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A622262471B00E94636 /* AppDelegate.swift */; };
-		01739A652262471B00E94636 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 01739A642262471B00E94636 /* art.scnassets */; };
-		01739A672262471B00E94636 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A662262471B00E94636 /* ViewController.swift */; };
-		01739A6A2262471B00E94636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01739A682262471B00E94636 /* Main.storyboard */; };
+		01739A672262471B00E94636 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A662262471B00E94636 /* LoginViewController.swift */; };
 		01739A6C2262471D00E94636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01739A6B2262471D00E94636 /* Assets.xcassets */; };
 		01739A6F2262471D00E94636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01739A6D2262471D00E94636 /* LaunchScreen.storyboard */; };
+		01739A772262539100E94636 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A762262539100E94636 /* AreaViewController.swift */; };
+		01739AA222625D7400E94636 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A8F22625D7400E94636 /* Utilities.swift */; };
+		01739AA322625D7400E94636 /* CoreGraphics+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9122625D7400E94636 /* CoreGraphics+Extension.swift */; };
+		01739AA422625D7400E94636 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9222625D7400E94636 /* UIView+Extension.swift */; };
+		01739AA522625D7400E94636 /* SceneKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9322625D7400E94636 /* SceneKit+Extension.swift */; };
+		01739AA622625D7400E94636 /* ARKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9422625D7400E94636 /* ARKit+Extension.swift */; };
+		01739AA722625D7400E94636 /* PlaneDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9722625D7400E94636 /* PlaneDetector.mm */; };
+		01739AA822625D7400E94636 /* MeasurementUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9822625D7400E94636 /* MeasurementUnit.swift */; };
+		01739AA922625D7400E94636 /* RulerARProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9922625D7400E94636 /* RulerARProViewController.swift */; };
+		01739AAA22625D7400E94636 /* UIAlertController+Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9A22625D7400E94636 /* UIAlertController+Dismiss.swift */; };
+		01739AAB22625D7400E94636 /* LineSetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9C22625D7400E94636 /* LineSetNode.swift */; };
+		01739AAC22625D7400E94636 /* PopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9D22625D7400E94636 /* PopButton.swift */; };
+		01739AAD22625D7400E94636 /* CylinderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9E22625D7400E94636 /* CylinderLine.swift */; };
+		01739AAE22625D7400E94636 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739A9F22625D7400E94636 /* Plane.swift */; };
+		01739AAF22625D7400E94636 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739AA022625D7400E94636 /* FocusSquare.swift */; };
+		01739AB022625D7400E94636 /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01739AA122625D7400E94636 /* LineNode.swift */; };
+		01739AB32262629A00E94636 /* SetPoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01739AB22262629A00E94636 /* SetPoint.wav */; };
+		4A9144A7AA5251EF13202981 /* Pods_Split.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F48396DC9AD833A36C1CF6 /* Pods_Split.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01739A5F2262471B00E94636 /* Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Split.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01739A622262471B00E94636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01739A642262471B00E94636 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		01739A662262471B00E94636 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01739A692262471B00E94636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01739A662262471B00E94636 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01739A6B2262471D00E94636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01739A6E2262471D00E94636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01739A702262471D00E94636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01739A762262539100E94636 /* AreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
+		01739A8F22625D7400E94636 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		01739A9122625D7400E94636 /* CoreGraphics+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extension.swift"; sourceTree = "<group>"; };
+		01739A9222625D7400E94636 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		01739A9322625D7400E94636 /* SceneKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneKit+Extension.swift"; sourceTree = "<group>"; };
+		01739A9422625D7400E94636 /* ARKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARKit+Extension.swift"; sourceTree = "<group>"; };
+		01739A9622625D7400E94636 /* PlaneDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneDetector.h; sourceTree = "<group>"; };
+		01739A9722625D7400E94636 /* PlaneDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlaneDetector.mm; sourceTree = "<group>"; };
+		01739A9822625D7400E94636 /* MeasurementUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementUnit.swift; sourceTree = "<group>"; };
+		01739A9922625D7400E94636 /* RulerARProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulerARProViewController.swift; sourceTree = "<group>"; };
+		01739A9A22625D7400E94636 /* UIAlertController+Dismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Dismiss.swift"; sourceTree = "<group>"; };
+		01739A9C22625D7400E94636 /* LineSetNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSetNode.swift; sourceTree = "<group>"; };
+		01739A9D22625D7400E94636 /* PopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopButton.swift; sourceTree = "<group>"; };
+		01739A9E22625D7400E94636 /* CylinderLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CylinderLine.swift; sourceTree = "<group>"; };
+		01739A9F22625D7400E94636 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		01739AA022625D7400E94636 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		01739AA122625D7400E94636 /* LineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
+		01739AB122625E4500E94636 /* Split-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Split-Bridging-Header.h"; sourceTree = "<group>"; };
+		01739AB22262629A00E94636 /* SetPoint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SetPoint.wav; sourceTree = "<group>"; };
+		48078CCAD485180FDBC37BF8 /* Pods-Split.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split.debug.xcconfig"; path = "Target Support Files/Pods-Split/Pods-Split.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1A939FFC967BE9E70FD2F5 /* Pods-Split.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split.release.xcconfig"; path = "Target Support Files/Pods-Split/Pods-Split.release.xcconfig"; sourceTree = "<group>"; };
+		E8F48396DC9AD833A36C1CF6 /* Pods_Split.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Split.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9144A7AA5251EF13202981 /* Pods_Split.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				01739A612262471B00E94636 /* Split */,
 				01739A602262471B00E94636 /* Products */,
+				5A21A3B71D8427229DB93BF7 /* Pods */,
+				BA0EB1C857EC7055B87BE5DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,81 @@
 		01739A612262471B00E94636 /* Split */ = {
 			isa = PBXGroup;
 			children = (
+				01739A8E22625D7400E94636 /* Ruler */,
 				01739A622262471B00E94636 /* AppDelegate.swift */,
-				01739A642262471B00E94636 /* art.scnassets */,
-				01739A662262471B00E94636 /* ViewController.swift */,
-				01739A682262471B00E94636 /* Main.storyboard */,
+				01739A662262471B00E94636 /* LoginViewController.swift */,
 				01739A6B2262471D00E94636 /* Assets.xcassets */,
+				01739AB22262629A00E94636 /* SetPoint.wav */,
 				01739A6D2262471D00E94636 /* LaunchScreen.storyboard */,
 				01739A702262471D00E94636 /* Info.plist */,
+				01739A762262539100E94636 /* AreaViewController.swift */,
+				01739AB122625E4500E94636 /* Split-Bridging-Header.h */,
 			);
 			path = Split;
+			sourceTree = "<group>";
+		};
+		01739A8E22625D7400E94636 /* Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				01739A8F22625D7400E94636 /* Utilities.swift */,
+				01739A9022625D7400E94636 /* Category */,
+				01739A9522625D7400E94636 /* Classes */,
+				01739A9922625D7400E94636 /* RulerARProViewController.swift */,
+				01739A9A22625D7400E94636 /* UIAlertController+Dismiss.swift */,
+				01739A9B22625D7400E94636 /* Views */,
+			);
+			path = Ruler;
+			sourceTree = "<group>";
+		};
+		01739A9022625D7400E94636 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				01739A9122625D7400E94636 /* CoreGraphics+Extension.swift */,
+				01739A9222625D7400E94636 /* UIView+Extension.swift */,
+				01739A9322625D7400E94636 /* SceneKit+Extension.swift */,
+				01739A9422625D7400E94636 /* ARKit+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		01739A9522625D7400E94636 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01739A9622625D7400E94636 /* PlaneDetector.h */,
+				01739A9722625D7400E94636 /* PlaneDetector.mm */,
+				01739A9822625D7400E94636 /* MeasurementUnit.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01739A9B22625D7400E94636 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01739A9C22625D7400E94636 /* LineSetNode.swift */,
+				01739A9D22625D7400E94636 /* PopButton.swift */,
+				01739A9E22625D7400E94636 /* CylinderLine.swift */,
+				01739A9F22625D7400E94636 /* Plane.swift */,
+				01739AA022625D7400E94636 /* FocusSquare.swift */,
+				01739AA122625D7400E94636 /* LineNode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A21A3B71D8427229DB93BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48078CCAD485180FDBC37BF8 /* Pods-Split.debug.xcconfig */,
+				9D1A939FFC967BE9E70FD2F5 /* Pods-Split.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA0EB1C857EC7055B87BE5DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F48396DC9AD833A36C1CF6 /* Pods_Split.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01739A732262471D00E94636 /* Build configuration list for PBXNativeTarget "Split" */;
 			buildPhases = (
+				EF39B8423F7B3A78222A701C /* [CP] Check Pods Manifest.lock */,
 				01739A5B2262471B00E94636 /* Sources */,
 				01739A5C2262471B00E94636 /* Frameworks */,
 				01739A5D2262471B00E94636 /* Resources */,
+				9448BC423A71CF813BE1FC3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +232,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01739A652262471B00E94636 /* art.scnassets in Resources */,
 				01739A6F2262471D00E94636 /* LaunchScreen.storyboard in Resources */,
 				01739A6C2262471D00E94636 /* Assets.xcassets in Resources */,
-				01739A6A2262471B00E94636 /* Main.storyboard in Resources */,
+				01739AB32262629A00E94636 /* SetPoint.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9448BC423A71CF813BE1FC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Split/Pods-Split-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Split/Pods-Split-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF39B8423F7B3A78222A701C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Split-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01739A5B2262471B00E94636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01739A672262471B00E94636 /* ViewController.swift in Sources */,
+				01739AA422625D7400E94636 /* UIView+Extension.swift in Sources */,
+				01739AB022625D7400E94636 /* LineNode.swift in Sources */,
+				01739A672262471B00E94636 /* LoginViewController.swift in Sources */,
+				01739A772262539100E94636 /* AreaViewController.swift in Sources */,
+				01739AA622625D7400E94636 /* ARKit+Extension.swift in Sources */,
+				01739AA222625D7400E94636 /* Utilities.swift in Sources */,
+				01739AAD22625D7400E94636 /* CylinderLine.swift in Sources */,
+				01739AAE22625D7400E94636 /* Plane.swift in Sources */,
+				01739AAC22625D7400E94636 /* PopButton.swift in Sources */,
+				01739AA722625D7400E94636 /* PlaneDetector.mm in Sources */,
+				01739AA922625D7400E94636 /* RulerARProViewController.swift in Sources */,
+				01739AAF22625D7400E94636 /* FocusSquare.swift in Sources */,
+				01739AAB22625D7400E94636 /* LineSetNode.swift in Sources */,
+				01739AA822625D7400E94636 /* MeasurementUnit.swift in Sources */,
+				01739AA322625D7400E94636 /* CoreGraphics+Extension.swift in Sources */,
 				01739A632262471B00E94636 /* AppDelegate.swift in Sources */,
+				01739AA522625D7400E94636 /* SceneKit+Extension.swift in Sources */,
+				01739AAA22625D7400E94636 /* UIAlertController+Dismiss.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01739A682262471B00E94636 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01739A692262471B00E94636 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01739A6D2262471D00E94636 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,16 +445,20 @@
 		};
 		01739A742262471D00E94636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48078CCAD485180FDBC37BF8 /* Pods-Split.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SQNZE245D;
 				INFOPLIST_FILE = Split/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = city.shit.Split;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Split/Split-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,16 +466,20 @@
 		};
 		01739A752262471D00E94636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1A939FFC967BE9E70FD2F5 /* Pods-Split.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SQNZE245D;
 				INFOPLIST_FILE = Split/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = city.shit.Split;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Split/Split-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
